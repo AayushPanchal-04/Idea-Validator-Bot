@@ -171,8 +171,7 @@ if validate_button:
 # Footer
 st.markdown("---")
 st.markdown("""
-    <div style='text-align: center; color: #666; padding: 1rem;'>
-        <p>Built with Streamlit and Groq | 
-        <a href='https://console.groq.com/' target='_blank'>Get Groq API Key</a></p>
-    </div>
+<div style='text-align: center; font-weight: bold;'>
+    Built by Aayush Panchal
+</div>
 """, unsafe_allow_html=True)
